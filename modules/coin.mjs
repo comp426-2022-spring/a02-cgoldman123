@@ -114,7 +114,7 @@ export function flipACoin(call) {
     return "{ call: '" + call + "', flip: '" + coinFlip + "', result: 'lose' }"
   }
 }
-
+// test
 
 /** Export 
  * 
