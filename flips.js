@@ -9,7 +9,7 @@ args["number"];
 
 
 
-const number = args.number || process.env.number || 1;
+const number = args.number || 1;
 
 var coinArray = coinFlips(number);
 console.log(coinArray);
