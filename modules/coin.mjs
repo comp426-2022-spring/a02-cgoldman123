@@ -92,6 +92,12 @@ export function countFlips(array) {
       tailCount++
     }
   }
+  if (headCount ==0) {
+    return "{ tails: " + tailCount + " }"
+  }
+  if (tailCount ==0) {
+    return "{ heads: " + headCount + " }"
+  }
   return "{ tails: " + tailCount + ", heads: " + headCount + " }"
 }
 
